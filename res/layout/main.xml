@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|left"
+            android:layout_weight="6"
             android:background="#666666"
             android:text="ToneGenerator.class predefined tones"
             android:textColor="@android:color/white"
@@ -32,9 +33,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
             android:layout_margin="0dp"
+            android:layout_weight="0"
             android:text="Stop"
             android:textSize="26sp" />
-
     </LinearLayout>
 
     <ListView
@@ -45,5 +46,5 @@
         android:textColor="@android:color/white"
         android:background="@android:color/black"
         android:choiceMode="singleChoice" />
-
+        
 </LinearLayout>
