@@ -117,6 +117,9 @@ public class SystemSoundDemo extends ListActivity {
 			" 95    CDMA CALLDROP LITE tone: 1480Hz 125ms, 1397Hz 125ms, 784Hz 125ms",
 			" 96    CDMA_NETWORK_BUSY_ONE_SHOT tone: 425Hz 500ms ON, 500ms OFF.",
 			" 97    CDMA_ABBR_ALERT tone: 1150Hz+770Hz 400ms ON", " 98    CDMA_SIGNAL_OFF - silent tone" };
+	/*
+	 * Tone 98 does not work properly on my Lollipop 5.0 devices. Take tone 50 instead.
+	 */
 
 	ToneGenerator mToneGenerator;
 
